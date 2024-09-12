@@ -3,8 +3,6 @@ using System;
 using System.Diagnostics;
 using System.Threading.Tasks;
 using WeatherService;
-Console.WriteLine("Hello, World!");
-
 try
 {
     //Pobierz dane

@@ -14,7 +14,7 @@ namespace WeatherService
             if(warnings.Count > 0)
             {
                 var conWarnings = string.Join(" ", warnings);
-                toastBuilder.AddText("Ostrzeżenie: " + conWarnings);
+                toastBuilder.AddText("Ostrzeżenie! " + conWarnings);
             }
             
             toastBuilder.Show();
