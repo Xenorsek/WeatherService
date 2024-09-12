@@ -3,8 +3,11 @@ using System;
 using System.Diagnostics;
 using System.Threading.Tasks;
 using WeatherService;
+using DotNetEnv;
+
 try
 {
+    Env.Load();
     //Pobierz dane
     var weatherDataStorage = new WeatherDataStorage();
     await weatherDataStorage.AddOrUpdateWeatherDataAsync();

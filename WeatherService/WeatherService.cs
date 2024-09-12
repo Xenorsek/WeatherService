@@ -11,7 +11,7 @@ namespace WeatherService
     {
         //&lat=53.8954&lon=20.3165
         private readonly HttpClient _client;
-        private const string ApiKey = "apikey";
+        private string ApiKey = Environment.GetEnvironmentVariable("API_KEY");
         private const string BaseUrl = "https://api.openweathermap.org/data/2.5";
         private const string unit = "metric";
         private const string cityName = "Olsztyn, PL";
