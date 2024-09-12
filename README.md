@@ -1,1 +1,1 @@
-Remember to configure WeatherService as you wish
+Remember to configure WeatherService as you desire
